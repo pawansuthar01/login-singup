@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>singup</title>
+    <style>
+      
+      @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+      *{
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        outline: 0;
+      }
+      body{
+        font-family: 'Roboto' , sans-serif;
+        background-color: rgb(8, 8, 8);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 90vh;
+      }
+      .container{
+        background-color: white;
+        width: 400px;
+        border-radius: 10px;
+       
+      }
+      .loginsection{
+        padding: 50px 5px 40px 30px ;
+      }
+      h1{
+        text-align: center;
+        font-size: 30px;
+
+      }
+      .input-box{
+        position: relative;
+        margin-bottom: 25px;
+      }
+      .input-box select{
+       width: 100%;
+       border-radius:4px ;
+       padding: 5px 0;
+       background-color: transparent;
+       border: 1px solid;
+      
+
+      }
+      .input-box input{
+        border: 1px solid;
+        border-radius:4px ;
+        padding: 5px 0;
+        
+        width: 100%;
+       
+        font-size: 18px;
+      }
+      
+      
+      button{
+        width: 100%;
+        padding:7px 0;
+        font-size: 15px;
+        background-color: rgb(4, 4, 4);
+        border-radius: 5px;
+        color: white;
+        border: none;
+      }
+
+
+
+    </STYLE>
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="loginsection">
+            <h1>SINGUP</h1>
+            <form>
+              <div class="input-box">
+                <label >NAME:</label>
+                <input type="text" name="username" required>
+              </div>
+              <div class="input-box">
+                <label >BATCH:</label>
+                <select name="BATCH" id="BATCH" required>
+                    <option value="batch-1">sigma2.0</option>
+                    <option value="batch-2">sigma3.0</option>
+                </select>
+              </div>
+              <div class="input-box">
+                <label >AGE:</label>
+                <input type="number" name="number"  required>
+              </div>
+              <div class="input-box">
+                <label >EMAIL:</label>
+                <input type="email" name="email"  required>
+              </div>
+              <div class="input-box">
+                <label >PASSWORD:</label>
+                <input type="password" name="password"  required>
+              </div>
+            <form>
+           <button type="submit">SUBMIT</button>
+        
+        </div>
+    </div>
+    
+</body>
+</html>
